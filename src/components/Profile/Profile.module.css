@@ -1,0 +1,9 @@
+.content{
+  grid-area: c;
+  background-color: hotpink;
+  }
+  .content img{
+    width: 1800px;
+    height: 900px;
+  }
+  
