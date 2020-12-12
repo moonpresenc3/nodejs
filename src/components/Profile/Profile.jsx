@@ -1,15 +1,15 @@
-import React from 'react';
-import cl from './Profile.module.css'
-import MyPosts from './MyPosts/MyPosts';
+import React from "react";
+import cl from "./Profile.module.css";
+import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile =()=>{
-    return <div>
+const Profile = () => {
+  return (
     <div>
-      <img src="https://w-dog.ru/wallpapers/10/17/541552369303432/ssha-severnaya-amerika-doroga-shosse-razmetka-les-sekvoji-derevya-tuman-priroda.jpg" />
+      <ProfileInfo />
+      <MyPosts />
     </div>
-    <div>ava + description</div>
-    <MyPosts />  
-  </div>
-}
+  );
+};
 
-export default Profile
+export default Profile;
