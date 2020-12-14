@@ -23,9 +23,9 @@ const Dialogs = (props) => {
   ];
 
   let messagesData = [
-    { id: 1, massage: "Hi" },
-    { id: 2, massage: "How are" },
-    { id: 3, massage: "You man" },
+    { id: 1, message: "Hi" },
+    { id: 2, message: "How are" },
+    { id: 3, message: "You man" },
   ];
 
   let dialogsElements = dialogsData.map((dialog) => (
