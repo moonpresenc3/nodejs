@@ -27,9 +27,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eeff181-7c20-495b-bef4-d63d3de5f7f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/DialogItem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\karma\Desktop\react\nodejs\node_modules\prettier" />
@@ -69,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs\DialogItem" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs\Message" />
       <recent name="C:\Users\karma\Desktop\react\nodejs\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Settings" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -175,9 +180,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="910" y="12" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607774390717" />
-    <state x="765" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1607684525628">
+    <state x="765" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1607948580039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607684525628" />
+    <state x="765" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607948580039" />
   </component>
 </project>
