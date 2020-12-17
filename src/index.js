@@ -8,7 +8,7 @@ import "./index.css";
 import App from "./App";
 import { addPost, updateNewPostText } from "./redux/state";
 
-let rerenderEntireTree = () => {
+let rerenderEntireTree = (state) => {
   ReactDOM.render(
     <React.StrictMode>
       <App
