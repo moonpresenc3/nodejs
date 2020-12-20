@@ -27,12 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eeff181-7c20-495b-bef4-d63d3de5f7f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\karma\Desktop\react\nodejs\node_modules\prettier" />
@@ -74,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karma\Desktop\react-redux\nodejs\src\redux" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs\DialogItem" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs" />
       <recent name="C:\Users\i.chernov\Desktop\Новая папка (3)\nodejs\src\components\Dialogs\Message" />
-      <recent name="C:\Users\karma\Desktop\react\nodejs\src\components\Profile\ProfileInfo" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -107,6 +106,7 @@
       <workItem from="1607869940955" duration="2142000" />
       <workItem from="1608038764939" duration="9574000" />
       <workItem from="1608223450377" duration="3457000" />
+      <workItem from="1608463079286" duration="3473000" />
     </task>
     <servers />
   </component>
@@ -159,30 +159,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="946" y="273" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607676038763" />
-    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1608227653171">
+    <state width="936" height="278" key="GridCell.Tab.0.bottom" timestamp="1608466428634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607947383548" />
-    <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608227653171" />
-    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1608227653170">
+    <state width="936" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608466428634" />
+    <state width="936" height="278" key="GridCell.Tab.0.center" timestamp="1608466428634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607947383548" />
-    <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608227653170" />
-    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1608227653170">
+    <state width="936" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608466428634" />
+    <state width="936" height="278" key="GridCell.Tab.0.left" timestamp="1608466428634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607947383547" />
-    <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608227653170" />
-    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1608227653171">
+    <state width="936" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608466428634" />
+    <state width="936" height="278" key="GridCell.Tab.0.right" timestamp="1608466428634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607947383548" />
-    <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608227653171" />
+    <state width="936" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608466428634" />
     <state x="910" y="12" width="998" height="708" key="SettingsEditor" timestamp="1607774390717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="910" y="12" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607774390717" />
+    <state x="143" y="242" key="run.anything.popup" timestamp="1608467958910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608467958910" />
     <state x="765" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1607948580039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
