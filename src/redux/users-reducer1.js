@@ -8,26 +8,28 @@ let initialState = {
         {id: 2, followed: true, fullName: "Stas", status: 'I am a boss too', location:{city:'Kiev', country:'Ukrain'}},
         {id: 3, followed: false, fullName: "Dmitry", status: 'I am a boss too too', location:{city:'Minsk', country:'Belarus'}},
     ],
-    newPostText: "demo",
-}
+};
 
 const usersReducer = (state = initialState, action) => {
     switch (action.type) {
         case FOLLOW:
-        return{
+        return {
         ...state,
         users: state.users.map( u => {
         if(u.id === action.userId){
         return{...u, followed:true}
-        return u;
-        } )
         }
+        return u;
+        })
+        }
+
 case UNFOLLOW:
         return{
                 ...state,
                 users: state.users.map( u => {
                 if(u.id === action.userId){
                 return{...u, followed:false}
+                }
                 return u;
                 } )
                 }
@@ -41,8 +43,8 @@ case SET_USERS:{
 
 };
 
-export const followAC = () => ({ type: FOLLOW, userId });
-export const unfollowAC = () => ({type: UNFOLLOW, newText: text, userId})
-export const setUsersAC = () => ({type: SET_USERS, users})
+export const followAC = (userId) => ({ type: FOLLOW, userId });
+export const unfollowAC = (userId) => ({type: UNFOLLOW, newText: text, userId})
+export const setUsersAC = (users) => ({type: SET_USERS, users})
 
 export default usersReducer;
